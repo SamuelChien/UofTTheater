@@ -1,0 +1,235 @@
+.centerdiv {
+  width: 200px; 
+  margin: 0 auto;
+}
+.button {
+   border-top: 1px solid #400101;
+   background: #f70303;
+   background: -webkit-gradient(linear, left top, left bottom, from(#bd0000), to(#f70303));
+   background: -webkit-linear-gradient(top, #bd0000, #f70303);
+   background: -moz-linear-gradient(top, #bd0000, #f70303);
+   background: -ms-linear-gradient(top, #bd0000, #f70303);
+   background: -o-linear-gradient(top, #bd0000, #f70303);
+   padding: 14.5px 29px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #8c0000;
+   background: #8c0000;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #7d0404;
+   background: #7d0404;
+   }
+
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
+  margin:30px;
+}
+
+#contentHolder {
+  background: #000 url(../images/good_background.jpg) no-repeat center top;
+  color: #fff;
+  width: 100%;
+  /*height: 950px;*/
+  font-size: 20px;
+  font-family: Arial;
+  padding: 270px 0 0 0;
+}
+
+body.redirect #contentHolder {
+  background: #000 url(http://www.empiretheatres.com/images/redirect-footer.png) no-repeat center top;
+  padding: 130px 0 0 0;
+}
+
+.goodbye-message {
+  margin: 0 0 10px 0;
+  text-align: center;
+  line-height: 27px;
+}
+
+body.redirect .goodbye-message {
+
+}
+
+.region-wrapper {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.region-wrapper.first {
+  /*border-bottom: 1px solid white;*/
+}
+
+.region {
+  color: #db2032;
+  font-size: 26px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.goodbye-date {
+  color: #db2032;
+  text-align: center;
+  line-height: 27px;
+  font-size: 22px;
+}
+
+.locations {
+  margin: 30px auto 0 auto;
+  text-align: left;
+  font-size: 18px;
+  width: 440px;
+}
+
+.locations .label {
+  margin-bottom: 5px;
+}
+
+.locations .dropdown {
+  margin-bottom: 20px;
+}
+
+.locations input {
+  text-transform: uppercase;
+  width: 75px;
+  height: 35px;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: rgb(169,3,41); /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5MDMyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzhmMDIyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZDAwMTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(109,0,25,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-8 */
+  border: none;
+}
+
+.locations select {
+  width: 440px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: rgb(255,255,255); /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+}
+
+.bottom {
+  background: transparent url(../images/goodbye/goodbye-popcorn.png) no-repeat;
+  text-align: center;
+  margin: 60px auto 0 auto;
+  width: 286px;
+  height: 120px;
+  padding: 40px 160px 0 50px;
+  font-size: 18px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.date-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background: #db2032;
+  color: #fff;
+  width: 100%;
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 5px 0;
+}
+
+#left {
+  margin-left: 88px;
+}
+
+#left, #right {
+  float: left;
+  width: 376px;
+  margin-right: 50px;
+  border: 1px solid #db2032;
+  background: #262626;
+}
+
+sup {
+  font-size: 10px;
+}
+
+.visit {
+  text-align: center;
+  font-size: 18px;
+}
+
+.visit a:hover {
+  color: #dc1d22;
+}
+
+.theatres {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.wide {
+  margin: 0 110px;
+  border: 1px solid #db2032;
+  background: #262626;
+}
+
+.wide .theatres {
+  font-size: 15px;
+}
+
+.wide #left, .wide #right {
+  float: left;
+  width: 345px;
+  margin: 0 10px 0 0;
+  background: transparent;
+  border: 0;
+}
+
+.redirect-footer {
+  background: transparent url(../images/redirect-footer.png) top center no-repeat;
+  height: 63px;
+  padding-top: 129px;
+  text-align: center;
+}
+
+.redirect-footer img.first {
+  margin-right: 30px;
+}
